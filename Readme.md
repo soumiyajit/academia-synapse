@@ -106,7 +106,8 @@ PUT       |    /api/students/:id    |    Update a student by ID
 DELETE    |    /api/students/:id    |    Delete a student by ID
 ----------------------------------------------------------------------
 
-
+# Author
+## Soumiyajit Das Chowdhury
 
 
 
