@@ -1,0 +1,11 @@
+{
+  "name": "academia-synapse-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "pm2 start backend/src/app.js --name academia-api && pm2 start npm --name academia-ui -- start --prefix frontend",
+    "stop": "pm2 delete academia-api academia-ui",
+    "status": "pm2 list",
+    "logs": "pm2 logs"
+  }
+}
