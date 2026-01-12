@@ -85,6 +85,8 @@ Follow these steps to set up and run the project locally.
 
 ## Running Tests
 
+npm install concurrently --save-dev
+
 ### Backend Tests
 
 Run unit tests for the API (requires MongoDB instance to be running):
