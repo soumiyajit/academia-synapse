@@ -1,4 +1,4 @@
-# Student Management System(SMS)
+# Student Management System (SMS)
 
 A full-stack application for managing student records, built with Node.js/Express/MongoDB for the backend and React for the frontend.
 
