@@ -10,8 +10,8 @@ const StudentForm = ({ onStudentAdded }) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setMessage('');
-        setIsError(false);
+        setMessage('Error: ${errorMsg}');
+        setIsError(true);
 
         if (!name || !age || !major) {
             setMessage('All fields are required.');
