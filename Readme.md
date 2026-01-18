@@ -9,10 +9,8 @@ A full-stack application for managing student records, built with Node.js/Expres
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Backend Setup](#backend-setup)
-  - [Frontend Setup](#frontend-setup)
+  - [Application Setup](#application-setup)
 - [Running Tests](#running-tests)
-- [API Endpoints](#api-endpoints)
 
 ## Features
 
