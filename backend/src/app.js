@@ -16,7 +16,7 @@ app.use('/api/students', studentRoutes);
 
 // Basic route
 app.get('/', (req, res) => {
-    res.send('Welcome to the Student Management System API! 🚀');
+    res.send('Welcome to the Student Management System API!');
 });
 
 // >>> IMPORTANT: Export the UNSTARTED app instance for testing
