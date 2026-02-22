@@ -70,6 +70,7 @@ Follow these steps to set up and run the project locally.
 3.  **Install dependencies:**
     ```bash
     npm install
+    npm install pm2
     ```
 
 4.  **Start the backend and frontend server:**
@@ -82,6 +83,11 @@ Follow these steps to set up and run the project locally.
 ## Running Tests
 ```bash
 npm run test-all
+```
+
+## Stopping academia-synapse
+```bash
+npm stop
 ```
 
 Author - Soumiyajit Das Chowdhury
